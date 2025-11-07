@@ -1,0 +1,20 @@
+{
+  "name": "langen",
+  "version": "1.0.0",
+  "description": "Gestionnaire de paquets minimaliste (clone éducatif de npm).",
+  "bin": {
+    "langen": "./bin/langen.js"
+  },
+  "scripts": {
+    "start": "node bin/langen.js",
+    "test": "node bin/langen.js --help"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "tar": "^7.1.0",
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0"
+  },
+  "license": "MIT",
+  "author": "Mauricio ceoseshell@gmail.com"
+}
